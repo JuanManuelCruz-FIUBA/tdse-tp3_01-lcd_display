@@ -1,4 +1,5 @@
 //=====[Libraries]=============================================================
+#include "mbed.h"
 
 #include "smart_home_system.h"
 
@@ -6,6 +7,8 @@
 
 int main()
 {
+    printf("%s\n", "Hello World");
+
     smartHomeSystemInit();
     while (true) {
         smartHomeSystemUpdate();
